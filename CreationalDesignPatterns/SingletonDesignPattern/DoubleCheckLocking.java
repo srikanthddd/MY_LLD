@@ -1,4 +1,4 @@
-package SingletonDesignPattern;
+package CreationalDesignPatterns.SingletonDesignPattern;
 
 public class DoubleCheckLocking {
     public static  DoubleCheckLocking doubleCheckLocking = null;

@@ -1,4 +1,4 @@
-package BuilderDesignPattern;
+package CreationalDesignPatterns.BuilderDesignPattern;
 
 public class Student {
 

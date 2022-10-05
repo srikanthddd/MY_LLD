@@ -1,5 +1,3 @@
-import java.io.IOError;
-
 public class Client {
 
     public static void fillRegistry(StudentRegistry registry){

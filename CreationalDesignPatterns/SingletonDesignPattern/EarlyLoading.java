@@ -1,3 +1,5 @@
+package CreationalDesignPatterns.SingletonDesignPattern;
+
 public class EarlyLoading {
 
     /*

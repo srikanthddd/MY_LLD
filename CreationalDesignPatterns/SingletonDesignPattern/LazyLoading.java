@@ -1,4 +1,4 @@
-package SingletonDesignPattern;
+package CreationalDesignPatterns.SingletonDesignPattern;
 
 public class LazyLoading {
     /*
