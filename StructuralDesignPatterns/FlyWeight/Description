@@ -1,0 +1,8 @@
+* Flyweight design pattern says, "Remove you weight and then fly.
+* Separate the Intrinsic and Extrinsic properties & add them in the Bullet and FlyingBullet classes respectively.
+Then add "Bullet" attribute in FlyingBullet class.
+
+Intrinsic ==> Not going to change.
+Extrinsic ==> Depends on environment, will change.
+
+* If the repetition of the Intrinsic properties is leading to a lot of memory usage, consider removing Intrinsic properties from the Object.
