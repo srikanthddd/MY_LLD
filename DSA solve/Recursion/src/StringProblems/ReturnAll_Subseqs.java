@@ -2,7 +2,7 @@ package StringProblems;
 
 import java.util.ArrayList;
 
-public class ReturnAll_Subsets {
+public class ReturnAll_Subseqs {
 
     public static void main(String[] args) {
         String a = "abc";

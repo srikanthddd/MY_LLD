@@ -1,6 +1,6 @@
 package StringProblems;
 
-public class Print_Subsets {
+public class Print_Subseqs {
 
     public static void main(String[] args) {
         String a = "abc";
