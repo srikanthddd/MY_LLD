@@ -3,7 +3,7 @@ package StringProblems;
 public class RemoveCharactersFromString_2 {
 
     public static void main(String[] args) {
-        String a = "baccad";
+        String a = "baccadhfa";
         char charToRemove = 'a';
         String out = "";
         int idx = 0;
