@@ -9,9 +9,9 @@ public class CountNumberOfSteps {
         System.out.println(countSteps(num, count));
     }
     public static int countSteps(int num, int count){
-        if(num == 0){
+        if(num == 0)
             return count;
-        }
+
         if(num % 2 == 0){
             return countSteps(num/2, count+1);
         }
