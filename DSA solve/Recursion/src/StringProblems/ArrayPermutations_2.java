@@ -3,7 +3,7 @@ package StringProblems;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ArrayPermutations_3 {
+public class ArrayPermutations_2 {
 
     public static void main(String[] args) {
         ArrayList<Integer> input = new ArrayList<>();
