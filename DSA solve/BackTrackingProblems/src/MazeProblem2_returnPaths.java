@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MazeProblem_diagonalPaths {
+public class MazeProblem2_returnPaths {
     public static void main(String[] args) {
         int[][] a = new int[3][3];
         int currRow = 0;
@@ -17,17 +17,12 @@ public class MazeProblem_diagonalPaths {
             return path;
         }
         ArrayList<String> allPaths = new ArrayList<>();
-
-        if(row < n && col < m) {
-            allPaths.addAll(findPaths(processed + "D", a, row+1, col + 1, n, m ));   // Diagonal
-        }
         if(row < n) {
-            allPaths.addAll(findPaths(processed + "H", a, row + 1, col, n, m));  // Horizantal
+            allPaths.addAll(findPaths(processed + "D", a, row + 1, col, n, m));
         }
         if(col < m) {
-            allPaths.addAll(findPaths(processed + "V", a, row, col + 1, n, m )); //Vertical
+            allPaths.addAll(findPaths(processed + "R", a, row, col + 1, n, m ));
         }
-
         return allPaths;
     }
 }
