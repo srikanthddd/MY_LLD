@@ -1,4 +1,4 @@
-public class MazeProblem_findPaths {
+public class MazeProblem_printPaths {
     public static void main(String[] args) {
         int[][] a = new int[3][3];
         int currRow = 0;
