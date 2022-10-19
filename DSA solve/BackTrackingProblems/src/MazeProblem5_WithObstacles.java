@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Maze5_WithObstacles {
+public class MazeProblem5_WithObstacles {
     public static void main(String[] args) {
         int[][] maze = {
                 {1,1,1},
