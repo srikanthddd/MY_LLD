@@ -19,13 +19,13 @@ public class MazeProblem_diagonalPaths {
         ArrayList<String> allPaths = new ArrayList<>();
 
         if(row < n && col < m) {
-            allPaths.addAll(findPaths(processed + "R", a, row+1, col + 1, n, m ));
+            allPaths.addAll(findPaths(processed + "D", a, row+1, col + 1, n, m ));   // Diagonal
         }
         if(row < n) {
-            allPaths.addAll(findPaths(processed + "D", a, row + 1, col, n, m));
+            allPaths.addAll(findPaths(processed + "H", a, row + 1, col, n, m));  // Horizantal
         }
         if(col < m) {
-            allPaths.addAll(findPaths(processed + "R", a, row, col + 1, n, m ));
+            allPaths.addAll(findPaths(processed + "V", a, row, col + 1, n, m )); //Vertical
         }
 
         return allPaths;
