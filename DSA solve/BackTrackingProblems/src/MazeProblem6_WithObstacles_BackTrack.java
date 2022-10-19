@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 
 // In this problem, you can move in 4 directions.
-public class MazeProblem5_WithObstacles_BackTrack {
+public class MazeProblem6_WithObstacles_BackTrack {
     public static void main(String[] args) {
         int[][] maze = {
                 {1,1,1},
