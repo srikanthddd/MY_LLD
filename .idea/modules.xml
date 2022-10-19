@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/DSA solve/DSA solve.iml" filepath="$PROJECT_DIR$/DSA solve/DSA solve.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MY_LLD.iml" filepath="$PROJECT_DIR$/.idea/MY_LLD.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.iml" filepath="$PROJECT_DIR$/CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA solve/BackTrackingProblems/RecursionProblems.iml" filepath="$PROJECT_DIR$/DSA solve/BackTrackingProblems/RecursionProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalDesignPatterns/RegistryDesignPattern/RegistryDesignPattern.iml" filepath="$PROJECT_DIR$/CreationalDesignPatterns/RegistryDesignPattern/RegistryDesignPattern.iml" />
     </modules>
   </component>
