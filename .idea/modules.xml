@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.iml" filepath="$PROJECT_DIR$/CreationalDesignPatterns/PrototypeDesignPattern/PrototypeDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA solve/BackTrackingProblems/RecursionProblems.iml" filepath="$PROJECT_DIR$/DSA solve/BackTrackingProblems/RecursionProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalDesignPatterns/RegistryDesignPattern/RegistryDesignPattern.iml" filepath="$PROJECT_DIR$/CreationalDesignPatterns/RegistryDesignPattern/RegistryDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CaseStudies/TicTacToe/TicTacToe.iml" filepath="$PROJECT_DIR$/CaseStudies/TicTacToe/TicTacToe.iml" />
     </modules>
   </component>
 </project>
