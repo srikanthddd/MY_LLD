@@ -12,7 +12,4 @@ public class Symbol {
         return SymbolLogo;
     }
 
-    public void setSymbolLogo(char symbolLogo) {
-        SymbolLogo = symbolLogo;
-    }
 }

@@ -1,8 +1,11 @@
 package WinStrategy;
 
-public class ColumnWinningStrategy implements WinningStrategy{
-    @Override
-    public void checkVictory() {
+import Models.Board;
+import Models.Move;
 
+public class ColumnWinningStrategy implements GameWinningStrategy{
+    @Override
+    public Boolean checkVictory(Board board, Move lastMove) {
+        return false;
     }
 }

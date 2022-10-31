@@ -1,5 +1,9 @@
 package Models;
 
+import BotStrategy.BotPlayingStrategy;
+
+import java.util.Scanner;
+
 public class Player {
 
     private Symbol symbol;
@@ -7,11 +11,11 @@ public class Player {
     private PlayerType playerType;
 
 
-    public Player(Symbol symbol, String name, PlayerType playerType){
+   /* public Player(Symbol symbol, String name, PlayerType playerType){
         this.symbol = symbol;
         this.name = name;
         this.playerType = playerType;
-    }
+    }*/
 
     public Symbol getSymbol() {
         return symbol;
@@ -35,5 +39,20 @@ public class Player {
 
     public void setPlayerType(PlayerType playerType) {
         this.playerType = playerType;
+    }
+
+    public Move makeMove(Board board) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What row (Starting from 1)");
+        Integer row = sc.nextInt();
+
+        System.out.println("What col (Starting from 1)");
+        Integer col = sc.nextInt();
+
+
+
+        Move move = new Move(row, col, this);
+
+        return move;
     }
 }

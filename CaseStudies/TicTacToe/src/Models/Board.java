@@ -15,11 +15,15 @@ public class Board {
 
         for(int i=0;i<size;i++){
             this.board.add(new ArrayList<>());
-
             for (int j=0;j<size;j++){
+
                 this.board.get(i).add(new Cell(i, j));
             }
         }
+    }
+
+    public Cell getCell(int row, int col){
+        return this.getBoard().get(row).get(col);
     }
 
     public int getSize() {
@@ -34,11 +38,12 @@ public class Board {
         for(List<Cell> row : board){
             for(Cell cell : row){
                 if(cell.getPlayer() == null){
-                    System.out.println(" - ");
+                    System.out.print(" - ");
                 }else {
-                    System.out.println(" "+ cell.getPlayer().getSymbol().getSymbolLogo());
+                    System.out.print(" "+ cell.getPlayer().getSymbol().getSymbolLogo());
                 }
             }
+            System.out.println();
         }
     }
 }
