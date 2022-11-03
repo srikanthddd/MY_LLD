@@ -15,7 +15,6 @@ public class RowWinningStrategy implements GameWinningStrategy{
     public Boolean checkVictory(Board board, Move lastMove) {
         Set<Character> characterSet = new HashSet<>();
         for(List<Cell> row : board.getBoard()){
-            boolean isSame = true;
             for(Cell cell : row){
                 if(cell.getPlayer()!=null){
                     characterSet.add(cell.getPlayer().getSymbol().getSymbolLogo());

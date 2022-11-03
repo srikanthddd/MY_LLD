@@ -1,0 +1,10 @@
+Simple :
+
+- If you see there is any change in the implementation (behaviour) during the run-time, then we go with this Pattern.
+
+
+PlayerBehaviour -->
+    - Defense Behaviour
+    - Attack Behaviour
+
+-> You pass the constructor, what behaviour you want and it creates that object and implement during the run time.

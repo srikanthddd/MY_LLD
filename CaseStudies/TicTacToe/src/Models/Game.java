@@ -74,7 +74,7 @@ public class Game {
 
         filledSize += 1;
 
-        System.out.println("winningStrategyList size : " +winningStrategyList.size());
+        //System.out.println("winningStrategyList size : " +winningStrategyList.size());
 
 
         for (GameWinningStrategy gameWinningStrategy: winningStrategyList){
